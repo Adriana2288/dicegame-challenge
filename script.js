@@ -12,40 +12,40 @@ button.addEventListener("click", () => {
     button.textContent = "Play again"
     alert.textContent = "You won!"
     score.textContent = total
-    image.src = "/img/dice.jpg"
+    image.src = "./img/dice.jpg"
     total = 0
   } else {
     if (num == 1) {
       button.textContent = "Play again"
       alert.textContent = "You lost!"
       score.textContent = total
-      image.src = "/img/dice1.png"
+      image.src = "./img/dice1.jpg"
       total = 0
     } else if (num == 2) {
       button.textContent = "Roll"
       alert.textContent = ""
       score.textContent = total;
-      image.src = "/img/dice2.png"
+      image.src = "./img/dice2.jpg"
     } else if (num == 3) {
       button.textContent = "Roll"
       alert.textContent = ""
       score.textContent = total;
-      image.src = "/img/dice3.png"
+      image.src = "./img/dice3.jpg"
     } else if (num == 4) {
       button.textContent = "Roll"
       alert.textContent = ""
       score.textContent = total;
-      image.src = "/img/dice4.png"
+      image.src = "./img/dice4.jpg"
     } else if (num == 5) {
       button.textContent = "Roll"
       alert.textContent = ""
       score.textContent = total
-      image.src = "/img/dice5.png"
+      image.src = "./img/dice5.jpg"
     } else if (num == 6) {
       button.textContent = "Roll"
       alert.textContent = ""
       score.textContent = total
-      image.src = "/img/dice6.png"
+      image.src = "./img/dice6.jpg"
     }
   }
 })
